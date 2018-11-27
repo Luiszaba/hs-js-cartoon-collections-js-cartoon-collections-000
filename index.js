@@ -35,3 +35,9 @@ for (let i = 0; i < foods.length; i++) {
 return "no cheese!";
 }
 }
+
+
+function wordswithB (words) {
+  
+  return 
+}
