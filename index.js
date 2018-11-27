@@ -28,8 +28,9 @@ function findTheCheese (foods) {
 var milkProtiens = ["gouda", "camembert", "cheddar"];
 var ingredients = ["garlic", "rosemary", "bread"];
 for (let i = 0; i < foods.length; i++) {
+  
   if (foods[i] == "gouda" || foods[i] == "cheddar" || foods[i] == "camembert")
-  return "cheddar";}
+  return foods[i];
 {
 return "no cheese!";
 }
