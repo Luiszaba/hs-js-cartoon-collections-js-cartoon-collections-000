@@ -38,6 +38,11 @@ return "no cheese!";
 
 
 function wordswithB (words) {
-  
-  return 
-}
+  var houses = [];
+  for(let i=0; words.length; i++) {
+    if(words[i][0] == 'b') {
+      houses.push(words[i])
+      } return houses 
+      } 
+      }
+    
