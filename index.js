@@ -43,6 +43,6 @@ function wordswithB (words) {
     if(words[i][0] == 'b') {
       houses.push(words[i])
       } 
-      } 
+      } return houses 
       }
     
